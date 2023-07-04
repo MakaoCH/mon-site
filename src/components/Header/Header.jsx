@@ -24,7 +24,7 @@ const Header = ({ isHeaderFixed }) => {
     
       <div className={`${styles.header} ${isHeaderFixed ? styles.scrolledHeader : ''}`}>
         <div onClick={handleHomeClick} className={styles.blockLignes}>
-          <Link to="/">
+          <Link to="/mon-site">
             <div ref={l1Ref} className={styles.l1}></div>
             <div ref={l2Ref} className={styles.l2}></div>
           </Link> 
