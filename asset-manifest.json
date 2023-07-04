@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/mon-site/static/css/main.073c9b0a.css",
-    "main.js": "/mon-site/static/js/main.a859a30e.js",
+    "main.css": "/mon-site/static/css/main.9364c8f3.css",
+    "main.js": "/mon-site/static/js/main.5a1dd536.js",
     "static/js/787.78f1af26.chunk.js": "/mon-site/static/js/787.78f1af26.chunk.js",
-    "static/media/logo.svg": "/mon-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/moi.jpg": "/mon-site/static/media/moi.a39013871c1251a0fc64.jpg",
+    "static/media/Visual_Studio_Code.png": "/mon-site/static/media/Visual_Studio_Code.6c1d8021c9f9d0d5f31c.png",
+    "static/media/ocean.jpg": "/mon-site/static/media/ocean.5bc04432b5b7a1416b67.jpg",
+    "static/media/seo.png": "/mon-site/static/media/seo.b13f6e46ed38fec52b3d.png",
+    "static/media/GitHub.png": "/mon-site/static/media/GitHub.44eee0c4a6c25b0d7347.png",
+    "static/media/nodejs.png": "/mon-site/static/media/nodejs.a714fac8957585c6dae8.png",
+    "static/media/twitter.png": "/mon-site/static/media/twitter.b25d9f841189834db299.png",
+    "static/media/react.png": "/mon-site/static/media/react.333823524d335bb054c7.png",
+    "static/media/css3.png": "/mon-site/static/media/css3.3394770c5a596c034b45.png",
+    "static/media/icone-html-noir.png": "/mon-site/static/media/icone-html-noir.dc6e0625402c2e0ecada.png",
+    "static/media/mongodb.png": "/mon-site/static/media/mongodb.4a01f60f5dfe44ae0d30.png",
     "index.html": "/mon-site/index.html",
-    "main.073c9b0a.css.map": "/mon-site/static/css/main.073c9b0a.css.map",
-    "main.a859a30e.js.map": "/mon-site/static/js/main.a859a30e.js.map",
+    "main.9364c8f3.css.map": "/mon-site/static/css/main.9364c8f3.css.map",
+    "main.5a1dd536.js.map": "/mon-site/static/js/main.5a1dd536.js.map",
     "787.78f1af26.chunk.js.map": "/mon-site/static/js/787.78f1af26.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a859a30e.js"
+    "static/css/main.9364c8f3.css",
+    "static/js/main.5a1dd536.js"
   ]
 }
