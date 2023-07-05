@@ -53,7 +53,7 @@ const ProjectDescription = () => {
       <a href={link} className={styles.button}>
         <i className="fa-solid fa-link"></i>Voir le projet
       </a>
-      <Link to={"/mon-site"} href="#projects" className={styles.button}>
+      <Link to={"/mon-site"} className={styles.button}>
         Retour
       </Link>
     </div>
