@@ -36,7 +36,7 @@ const Home = () => {
   }
 
   useEffect(() => {
-    slideInTop("#box1", 0.2, 0.8);
+    slideInTop("#box1", 0.0, 0.8);
   }, []);
   
   useEffect(() => {

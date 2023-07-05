@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import data from '../../data/projects.json';
 import styles from "./ProjectDescription.module.css";
 import { gsap } from 'gsap';
@@ -7,6 +7,7 @@ import Slideshow from "../../components/Slideshow/Slideshow";
 
 const ProjectDescription = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
 
   const project = data.find((project) => project.id === id);
   console.log(project);
@@ -53,14 +54,17 @@ const ProjectDescription = () => {
       <a href={link} className={styles.button}>
         <i className="fa-solid fa-link"></i>Voir le projet
       </a>
-      <Link to={"/mon-site"} className={styles.button}>
+      
+      <a href={"#projects"} onClick={() => navigate(-1)} className={styles.button}>
         Retour
-      </Link>
+      </a>
     </div>
   );
 };
 
 export default ProjectDescription;
+
+
 
 
 

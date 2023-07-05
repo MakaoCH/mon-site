@@ -58,7 +58,7 @@
   @media screen and (max-width:900px)
   {
     .skills h1 {
-      font-size: 50px;
+      font-size: 45px;
   }
     .card {
       width: 90%;
@@ -68,11 +68,13 @@
       flex-direction: column;
       align-items: center;
   }
-  .image {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
+    .image {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;  
+  }
+    .imageWithTitle img {
+      width: 35px; 
   }
 
 }
