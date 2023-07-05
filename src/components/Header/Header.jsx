@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import { gsap, Power2 } from 'gsap';
 import styles from './Header.module.css';
 import Navbar from '../Navbar/Navbar';
-import { Link } from 'react-router-dom';
 
 const Header = ({ isHeaderFixed }) => {
   const l1Ref = useRef(null);
@@ -17,17 +16,15 @@ const Header = ({ isHeaderFixed }) => {
 
   const handleHomeClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    window.history.pushState(null, '', '/');
+    window.history.pushState(null, '', '/mon-site');
   };
 
   return (
     
       <div className={`${styles.header} ${isHeaderFixed ? styles.scrolledHeader : ''}`}>
         <div onClick={handleHomeClick} className={styles.blockLignes}>
-          <Link to="/mon-site">
             <div ref={l1Ref} className={styles.l1}></div>
             <div ref={l2Ref} className={styles.l2}></div>
-          </Link> 
         </div>
         
         <Navbar className={styles.Navbar} />

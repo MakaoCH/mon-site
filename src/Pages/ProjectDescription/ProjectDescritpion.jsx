@@ -51,7 +51,7 @@ const ProjectDescription = () => {
       <h3>Réalisation</h3>
       <p>{realisationLines}</p>
 
-      <a href={link} className={styles.button}>
+      <a href={link} className={styles.button} target='blank' >
         <i className="fa-solid fa-link"></i>Voir le projet
       </a>
       
