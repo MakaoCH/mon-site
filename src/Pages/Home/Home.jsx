@@ -19,7 +19,7 @@ const Home = () => {
     gsap.fromTo(
       elem, {
         opacity: 0,
-        y:200,
+        y:100,
       },
       {
         opacity: 1,
@@ -36,7 +36,7 @@ const Home = () => {
   }
 
   useEffect(() => {
-    slideInTop("#box1", 0.0, 0.8);
+    slideInTop("#box1", 0.1, 0.8);
   }, []);
   
   useEffect(() => {
