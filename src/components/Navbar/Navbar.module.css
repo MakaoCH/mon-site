@@ -34,7 +34,6 @@ a {
 @media screen and (max-width:1300px)
   {
     .containerBtn {
-        
         width: 90%;
     }
 }
@@ -48,7 +47,6 @@ a {
     .text span {
         margin-bottom: 10px;
         font-size: 15px;   
-        border: 3px solid #f1f1f1;
         padding: 15px;
         width: 100px;
     }
